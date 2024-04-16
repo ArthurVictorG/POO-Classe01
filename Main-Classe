@@ -1,0 +1,16 @@
+
+
+
+
+public class Main {
+  public static void main(String[] args) {
+    Fatura fatura = new Fatura(2, "Teclado", 3, 19.00);
+    System.out.println("Descrição do produto: "+fatura.getDescricao());
+    System.out.println("Quantidade de iten(s): "+fatura.getQuantidade());
+    System.out.println("Preço unitário do item: "+fatura.getPreco());
+    System.out.println("Valor total dos iten(s): "+fatura.calcularValorFatura());
+  }
+  
+
+
+}
